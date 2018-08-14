@@ -8,12 +8,11 @@ etc/Headset_cal.acdb
 etc/Speaker_cal.acdb
 
 # RIL
-lib/libprotobuf-cpp-lgcy.so|2d83260039a5b8c77ca86c3e8697e24d8d579efe
-lib/libsec-ril.so|83d2b1e5845141771ace6e4fb2679e6debf912e4
+lib/libprotobuf-cpp-full.so:lib/libprotobuf-cpp-lgcy.so
+lib/libsec-ril.so|0da04b79476ac4f8aa6f17118098febfa85541de
 
 # Sensors
 lib/hw/sensors.msm8916.so:lib/hw/sensors.vendor.msm8916.so
-vendor/lib/libcalmodule_gyroscope.so
 
 # Qualcomm framework
 vendor/lib/libdiag.so
